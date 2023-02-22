@@ -8,6 +8,7 @@
     
 
 }
+
 .masthead
 {
     background: url('./img/tokyio.jpg') no-repeat;
@@ -45,13 +46,7 @@
 
 .mastheadAereo
 {
-    background: url('./img/aereoezeiza.jpg') no-repeat;
-    background-size: cover;
     position: relative;
-    min-height: 80vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 
 }
 
@@ -72,13 +67,8 @@
 
 .mastheadnaritaairpot
 {
-    background: url('./img/naritaairpot.jpg') no-repeat;
-    background-size: cover;
+
     position: relative;
-    min-height: 80vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 
 }
 
@@ -95,3 +85,40 @@
 
     color: white;
 }
+
+
+
+.mastheadMeiji
+{
+    position: relative;
+
+
+}
+
+.mastheadMeiji .container
+{
+    overflow: hidden;
+}
+
+.mastheadMeiji h2
+{
+    position: absolute;
+   bottom: 1.25rem;
+    max-width: 550px;
+
+    color: white;
+}
+.secondday
+{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.secondday a
+{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+   
+}
+
+
