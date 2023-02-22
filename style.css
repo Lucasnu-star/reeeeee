@@ -8,16 +8,90 @@
     
 
 }
-.father
+.masthead
 {
+    background: url('./img/tokyio.jpg') no-repeat;
+    background-size: cover;
     position: relative;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
 }
-.father nav
+
+.masthead .container
+{
+    overflow: hidden;
+}
+
+.masthead h1
 {
     position: absolute;
-    width: 100%;
+    bottom: 1.25rem;
+    max-width: 550px;
+    
+
+    color: white;
 }
-.navbar-nav
+.color-overly
 {
-    z-index: 40;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6573004201680672)0%, rgba(129,129,129,0) 48%);
+}
+
+.mastheadAereo
+{
+    background: url('./img/aereoezeiza.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.mastheadAereo .container
+{
+    overflow: hidden;
+}
+
+.mastheadAereo h2
+{
+    position: absolute;
+   bottom: 1.25rem;
+    max-width: 550px;
+
+    color: white;
+}
+
+
+.mastheadnaritaairpot
+{
+    background: url('./img/naritaairpot.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.mastheadnaritaairpot .container
+{
+    overflow: hidden;
+}
+
+.mastheadnaritaairpot h2
+{
+    position: absolute;
+   bottom: 1.25rem;
+    max-width: 550px;
+
+    color: white;
 }
